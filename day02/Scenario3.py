@@ -12,6 +12,6 @@ highest_rated_movie = movies[index_highest_rating * 2] #Since each movie title i
 print(f"Highest rated movie: {highest_rated_movie}")
 
 #3.	Create a new tuple with only the movie titles:
-movie_titles = movies[0::2]
+movie_titles = movies[0::2] #slices the movies tuple starting from index 0 and extracts every second element (2 as the step), which corresponds to the movie titles
 movie_titles_tuple = tuple(movie_titles)
 print(f"Movie titles: {movie_titles_tuple}")
